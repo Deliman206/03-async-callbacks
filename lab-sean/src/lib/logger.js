@@ -11,7 +11,7 @@ const logger = module.exports = winston.createLogger({
     new winston.transports.Console({ format: winston.format.simple(), level: 'info' }),
   ],
 });
-
+// Delete this
 logger.INFO = 'info';
 logger.ERROR = 'error';
 logger.VERBOSE = 'verbose';
